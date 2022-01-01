@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "os";
+    src: url('../Oswald-Medium.ttf');
+}
+*{
+    font-family:os;
+}
+
+h4{
+    color:black;
+}
+
+.body{
+    background-image: url(../z_img/img_BGLogin.png);
+    background-size: 120vw;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputbox{
+    width: 250px;
+    height: 20px;
+
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border: solid black;
+}
+
+.loginForm{
+    padding: 3vw; 
+    margin-left: auto; 
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: auto;
+    border-radius: 10px;
+}
+
+.regisForm{
+    padding: 5vw; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: auto;
+    border-radius: 10px;
+}
+
+.loginButton{
+    width: 125px;
+    height: 38px;
+    background:white;
+    color: black;
+    border-radius: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid grey ;
+    text-decoration: none;
+    font-family: os;
+    font-size: 12pt;
+}
+
+.loginButton:hover{
+    background-color: rgb(190, 190, 190);
+    transition-duration: 400ms;
+}
+
+.regisButton{
+    background:white;
+    color: black;
+    border-radius: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid grey ;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: os;
+    font-size: 12pt;
+    margin-left: auto;
+    margin-right: auto;
+}

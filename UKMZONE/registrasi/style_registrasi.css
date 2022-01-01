@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "os";
+    src: url('../Oswald-Medium.ttf');
+}
+*{
+    font-family:os;
+}
+
+h4{
+    color:black;
+}
+
+.body{
+    background-image: url(BGLogin.png);
+    background-size: 120vw;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputbox{
+    width:200px;
+    color:black; 
+    background-color: white;
+    border-radius: 10px; 
+    border: solid black"
+}
+
+.loginForm{
+    padding: 5vw; 
+    margin-left: auto; 
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: auto;
+    border-radius: 10px;
+}
+
+.regisForm{
+    padding: 5vw; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: auto;
+    border-radius: 10px;
+}
+
+.loginButton{
+    background:white;
+    color: black;
+    border-radius: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid grey ;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: os;
+    font-size: 12pt;
+}
+
+.regisButton{
+    background:white;
+    color: rgb(14, 124, 0);
+    border-radius: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid rgb(14, 124, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: os;
+    font-size: 12pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.regisButton:hover{
+    background-color: rgb(190, 190, 190);
+    transition-duration: 400ms;
+}
+
+.pilihButton{
+    background:rgb(255, 255, 255);
+    color: rgb(14, 124, 0);
+    border-radius: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid rgb(182, 182, 182) ;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: os;
+    font-size: 12pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.pilihButton:hover{
+    background-color: rgb(190, 190, 190);
+    transition-duration: 400ms;
+}

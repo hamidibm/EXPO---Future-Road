@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "os";
+    src: url('../Oswald-Medium.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:os;
+}
+body{
+    background-color: white;
+}
+/* ini navbar */
+ div.scrollmenu {
+    background-color: rgb(39, 168, 0);
+    overflow: auto;
+    white-space: nowrap;
+    
+  }
+  div.scrollmenu h1{
+      color: black;
+      padding: 15px;
+      font-family:'Courier New', Courier, monospace;
+  }
+  div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color:rgb(24, 104, 0);
+    color:White;
+  }
+  
+.tombol{
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px;
+    display: block;
+    float: left;
+    width: 45%;
+    margin: 4px;
+    text-align: center;
+    color: white;
+}
+
+.tombol-beli{
+    background-color: rgb(0, 147, 192);
+    float:right;
+    width: 80%;
+    vertical-align:bottom;
+    margin: 20px;
+    
+}
+.tombol:hover{
+    background-color: black;
+    transition-duration: 700ms;
+}
+
+.tabel{
+    margin-top: 20px;
+    /* margin-left: 20%; */
+    /* margin-right: 30%; */
+    padding: 15px;
+    padding-right: 40px;
+    /* width: 420px; */
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid rgb(39, 168, 0);
+    border-radius: 10px;
+}
+
+.tabel p{
+    float: right;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.tabel img{
+    margin: 15px;
+}
+
+.keranjang{
+    margin-bottom: 75px;
+}
+
+.kaki{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: rgb(39, 168, 0);
+    color: black;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size:18px;
+}
+
+.uploadButton{
+    width: 90px;
+    background:rgb(39, 168, 0);
+    border-bottom: 5px solid rgb(29, 122, 0);
+    color: white;
+    border-radius: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 4px 30px;
+    text-decoration: none;
+    font-family: os;
+    font-size: 10pt;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uploadButton:hover{
+    background-color: black;
+    transition-duration: 700ms;
+}
+.uploadButton2{
+    width: 90px;
+    background:rgb(168, 6, 0); 
+    border-bottom: 5px solid rgb(105, 4, 0);
+    color: white;
+    border-radius: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 4px 30px;
+    text-decoration: none;
+    font-family: os;
+    font-size: 10pt;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uploadButton2:hover{
+    background-color: black;
+    transition-duration: 700ms;
+}
+
+
+.kaki{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: rgb(39, 168, 0);
+    color: black;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    font-weight: bold;
+    font-size:18px;
+}

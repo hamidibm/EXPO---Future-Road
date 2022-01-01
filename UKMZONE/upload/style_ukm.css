@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "os";
+    src: url('../Oswald-Medium.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:os;
+}
+/* ini navbar */
+ div.scrollmenu {
+    background-color: rgb(39, 168, 0);
+    overflow: auto;
+    white-space: nowrap;
+    
+  }
+  div.scrollmenu h1{
+      color: rgb(0, 0, 0);;
+      padding: 15px;
+      font-family:'Courier New', Courier, monospace;
+  }
+  div.scrollmenu a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: rgb(15, 129, 0);
+    color:white;
+  }
+
+
+/* konten isi */
+body{
+    background-color:rgb(255, 255, 255);
+}
+ 
+.baru{
+    width: 1500px;
+    margin: 35px auto;
+    padding: 10px;
+    overflow: hidden;
+    background-color:transparent;
+    border-radius: 10px;
+}
+ 
+.baru h2{
+    color: white;
+    border-bottom: 1px solid rgb(5, 155, 0);
+    margin: 5px;
+    margin-bottom: 13px;
+}
+ 
+.list-produk{
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+    width: 200px;
+    margin: 5px;
+}
+ 
+.list-produk:hover{
+    transition-duration: 700ms;
+    box-shadow: 5px 5px green;
+}
+ 
+.list-produk img{
+    width: 100%;
+    height: 175px;
+    display: block;
+    margin-bottom: 5px;
+}
+ 
+.list-produk h4, .list-produk h5{
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+ 
+.tombol{
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px;
+    display: block;
+    float: left;
+    width: 45%;
+    margin: 4px;
+    text-align: center;
+    color: white;
+}
+ 
+.tombol:hover{
+    background-color: black;
+    transition-duration: 700ms;
+}
+ 
+.tombol-detail{
+    background-color: rgb(15, 126, 0);;
+}
+ 
+.tombol-beli{
+    background-color: rgb(0, 147, 192);
+}
+.tabel{
+    background-color: yellow;
+    align-items: center;
+    padding: 5px;
+}
+
+.kaki{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: rgb(39, 168, 0);
+    color: black;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    font-weight: bold;
+    font-size:18px;
+}
+
+.upload{
+    padding: 42px; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 75px;
+    border-radius: 30px;
+}
+
+.inputbox{
+    width:240px;
+    height: 25px;
+    color:black; 
+    background-color: white;
+    border-radius: 10px; 
+    border: solid black";
+}
+
+.inputfoto{
+    width:240px;
+    color:black; 
+    background-color: white;
+    border-radius: 10px; 
+    border: solid black";
+}
+
+.inputdetail{
+    width:200px;
+    height: 100px;
+    color:black; 
+    background-color: white;
+    border-radius: 10px; 
+    border: solid black"
+}
+
+.uploadButton{
+    background:rgb(39, 168, 0);
+    color: white;
+    border-radius: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid rgb(29, 126, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: os;
+    font-size: 12pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uploadButton:hover{
+    background-color: rgb(26, 112, 0);
+    border-bottom:5px solid rgb(21, 92, 0);
+    color: gold;
+    border-radius: 20px;
+    transition-duration: 700ms;
+}

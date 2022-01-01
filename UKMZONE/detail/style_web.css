@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "os";
+    src: url('../Oswald-Medium.ttf');
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family:os;
+}
+
+body{
+	background-color: rgb(255, 255, 255);
+}
+div.scrollmenu {
+    background-color: rgb(39, 168, 0);
+    overflow: auto;
+    white-space: nowrap;
+    
+  }
+  div.scrollmenu h1{
+      color: rgb(0, 0, 0);;
+      padding: 15px;
+      font-family:'Courier New', Courier, monospace;
+  }
+  div.scrollmenu a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: rgb(15, 129, 0);
+    color:white;
+  }
+
+/* ============== Bagian Detail Produk ============== */
+
+.namaBarang{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.hargaBarang{
+	margin: 15px 10px;
+	margin-bottom: 20px;
+
+	font-weight: bold;
+    font-size: 26px;
+}
+
+.detailBarang{
+	margin-top: 80px;
+	margin-left: 10px;
+
+    font-size: 19px;
+}
+
+.detailBarang p{
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+	font-weight: bold;
+    font-size: 20px;
+}
+
+.button{
+	margin-top: 25px;
+	margin-left: 10px;
+
+	background-color: rgba(37, 74, 88, 0.63);
+	color: white;
+	width: 100px;
+	height: 30px;
+    border: none;
+	border-radius: 10%;
+}
+
+
+/* Main */
+
+
+	.left{
+		width: 250px;
+		height: 200px;
+		background: #32af00;
+		padding: 10px;
+		margin: 20px;
+		float: left;
+	}
+
+	.middle{
+		width: 50%;
+		background: rgb(255, 255, 255);
+		border: 3px solid rgb(13, 156, 0);
+		padding: 10px;
+		margin: 20px 30px;
+		margin-bottom: 100px;
+		float: left;
+	}
+
+	.right{
+		width: 250px;
+		background: #ffffff;
+		border: 3px solid rgb(13, 156, 0);
+		padding: 10px;
+		margin: 20px;
+		float: left;
+	}
+
+	.kaki{
+		width: 100%;
+		height: 50px;
+		padding-left: 10px;
+		line-height: 50px;
+		background: rgb(39, 168, 0);
+		color: black;
+		bottom: 0px;
+		position: fixed;
+		text-align: center;
+		font-weight: bold;
+		font-size:18px;
+	}
+
+	.tombol{
+		text-decoration: none;
+		border-radius: 7px;
+		padding: 7px;
+		display: block;
+		float: left;
+		width: 175px;
+		margin: 4px;
+		text-align: center;
+		color: white;
+	}
+	
+	.tombol-beli{
+		background-color: rgb(0, 147, 192);
+	}
+	
+	.tombol-beli:hover{
+		background-color: black;
+		transition-duration: 700ms;
+	}
+	
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+
+/*untuk ukuran layar 460px-960px*/
+@media screen and (max-width: 960px) and (min-width: 460px) {
+
+	/* .navBar {		
+		display: inline;
+		background:#6ef79c;
+		border-top:0;
+		border-left:0;
+		border-right:0;
+		border-bottom:0;
+		padding:10px 20px;
+
+	}
+	
+	.container {
+		width: 100%;
+	}
+	.left {
+		width: auto;
+		float: none;
+		padding: 20px;
+	}
+	.middle {
+		width: auto;
+		float: none;
+		padding: 10px;
+		margin: 10px;
+
+	}
+	
+	.right {
+		clear: both;
+		padding: 1% 20%;
+		width: auto;
+		float: none;
+	} */
+}
+
+
+
