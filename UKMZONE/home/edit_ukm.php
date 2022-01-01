@@ -18,10 +18,6 @@
         }
     }
 
-    echo "<script>
-                    confirm('Berhasil menghapus data');
-                    document.location.href = 'home_ukm.php'
-               </script>";
     if(isset($_POST["hapus"])){
         if(hapus($id) > 0){
             $gambar = $data["gambar"];
